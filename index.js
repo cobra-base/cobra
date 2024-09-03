@@ -1,3 +1,5 @@
+'use strict'
+
 const time = require('./lib/util/time')
 const rand = require('./lib/util/rand')
 
