@@ -6,6 +6,12 @@
   "scripts": {
     "test": "mocha"
   },
+  "dependencies": {
+    "@uniswap/sdk-core": "^4.1.4",
+    "@uniswap/v3-sdk": "^3.10.2",
+    "cobra": "github:cobra-base/cobra",
+    "ethers": "^5.7.2"
+  },
   "devDependencies": {
     "mocha": "*"
   },
