@@ -9,4 +9,4 @@ git push origin v0.0.2
 
 # install
 npm install git+ssh://git@github.com:cobra-base/cobra.git
-npm install git+ssh://git@github.com:cobra-base/cobra.git#v0.0.30
+npm install git+ssh://git@github.com:cobra-base/cobra.git#v0.0.31
