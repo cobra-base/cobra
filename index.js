@@ -1,17 +1,11 @@
 'use strict'
 
-const time = require('./lib/util/time')
-const rand = require('./lib/util/rand')
-const func = require('./lib/util/func')
-const erc20 = require('./lib/erc20/erc20')
-const uniswap = require('./lib/swap/uniswap')
+module.exports = {
+  time: require('./lib/util/time'),
+  rand: require('./lib/util/rand')
+  func: require('./lib/util/func'),
+  log: require('./lib/util/log'),
 
-module.exports.time = time
-module.exports.rand = rand
-module.exports.func = func
-module.exports.erc20 = erc20
-module.exports.uniswap = uniswap
-
-module.exports.putMsg = function() {
-    console.warn('Great! you got')
-}
+  erc20: require('./lib/erc20/erc20'),
+  uniswap: require('./lib/swap/uniswap'),
+} 
