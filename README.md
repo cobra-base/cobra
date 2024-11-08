@@ -4,9 +4,9 @@
 npm test
 
 # git tag
-git tag v0.0.70
-git push origin v0.0.70
+git tag v0.0.71
+git push origin v0.0.71
 
 # install
 npm i git+ssh://git@github.com:cobra-base/cobra.git
-npm i git+ssh://git@github.com:cobra-base/cobra.git#v0.0.70
+npm i git+ssh://git@github.com:cobra-base/cobra.git#v0.0.71
