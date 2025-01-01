@@ -8,5 +8,6 @@ module.exports = {
   notify: require('./lib/util/notify'),
 
   erc20: require('./lib/erc20/erc20'),
+  swap: require('./lib/swap/constants'),
   uniswap: require('./lib/swap/uniswap'),
-} 
+}
